@@ -57,7 +57,8 @@ The Alarm accepts JSON in the following format:
 
 Green siren for 10 seconds
 ```
-$ mosquitto_pub -A raspberrypi.local -u sonoff -P s0n0ff -t "/Alarm-40" -m "{ 'color': 'red', 'mode': 'siren', 'duration': 10}"```
+$ mosquitto_pub -A raspberrypi.local -u sonoff -P s0n0ff -t "/Alarm-40" -m "{ 'color': 'red', 'mode': 'siren', 'duration': 10}"
+```
 
 Blue flash for 10 seconds
 ```
