@@ -14,11 +14,13 @@ The alarm model was designed in Fusion360 and it's build on the ESP8266 (ESP12) 
 #### Alarm Model
 The alarm was designed in two parts. The glass top and the base. Both can be find as a Fusion360 version. Feel free to modify it. I used transparent filament for the top and a plain black PLA for the bottom.
 
-![Siren-Fusion306](images/alarm.png)
+![Siren-Fusion360](images/alarm.png)  ![Siren-Done](images/alarm-done.png)
 
 You can access my 3D model via [Fusion360](https://a360.co/2TzcIWP).
 
 #### Parts, Sketch & Schematic
+
+![Wemos D1](images/wemos-d1.jpg)
 
 Used parts:
 
