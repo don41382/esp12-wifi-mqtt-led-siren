@@ -5,11 +5,11 @@ I wanted to find a cheap way to signal warnings and information via a Siren. I c
 
 So I decided to build one by myself.
 
-## Installation
-The Siren connects to your local WIFI and controlled via MQTT.
+## Build & Setup
+The build section explains how to make your own Alarm and the setup shows the necessary steps to be able send your first commands to the Alarm.
 
 ### How to build the Alarm
-These are the steps to build
+The alarm model was designed in Fusion360 and it's build on the ESP8266 (ESP12) which controls the LED's based on the received commands.
 
 #### Alarm Model
 The alarm was designed in two parts. The glass top and the base. Both can be find as a Fusion360 version. Feel free to modify it. I used transparent filament for the top and a plain black PLA for the bottom.
@@ -23,12 +23,12 @@ You can access my 3D model via [Fusion360](https://a360.co/2TzcIWP).
 Used parts:
 
 - ESP12 / Wemos D1 mini
-- WS2801 Arduino
+- WS2801 LED's
 
 Check out the Arduino sketch: [Arduino Sketch](esp12-alarm.ino)
 
 ### How to setup the Alarm
-Follow the 4 steps from setup to sending your first commands.
+The Siren connects to your local WIFI and is controlled via MQTT. Follow the 4 steps from setup to sending your first commands.
 
 #### 1. Power up & connect to hotspot
 After you powered on the Alarm for the first time, it will create a temporary hotspot. You will have to connect to that WIFI. The SSID will be something like `Alarm-XX`
